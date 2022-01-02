@@ -1,0 +1,20 @@
+{
+  "name": "iamport",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "iamport": "^0.3.4",
+    "iamport-rest-client-nodejs": "^0.9.4",
+    "express": "^4.17.2"
+  }
+}
