@@ -10,11 +10,11 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "nodemon": "^2.0.15"
+    "nodemon": "^2.0.15",
+    "express": "^4.17.2"
   },
   "dependencies": {
     "iamport": "^0.3.4",
-    "iamport-rest-client-nodejs": "^0.9.4",
-    "express": "^4.17.2"
+    "iamport-rest-client-nodejs": "^0.9.4"
   }
 }
