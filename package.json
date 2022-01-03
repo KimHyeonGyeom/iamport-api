@@ -14,6 +14,7 @@
     "express": "^4.17.2"
   },
   "dependencies": {
+    "axios": "^0.24.0",
     "iamport": "^0.3.4",
     "iamport-rest-client-nodejs": "^0.9.4"
   }
