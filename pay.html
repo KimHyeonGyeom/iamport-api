@@ -6,6 +6,10 @@
     <script type="text/javascript" src="https://cdn.iamport.kr/js/iamport.payment-1.1.8.js"></script>
     <meta charset="UTF-8">
     <title>Insert title here</title>
+    <form action="http://localhost:4000/billings", method="post">
+        <!--예: https://www.myservice.com/subscription/issue-billing-->
+        <input type="submit" value="정기결제">
+    </form>
 </head>
 <form action="http://localhost:4000/subscription/issue-billing", method="post">
     <!--예: https://www.myservice.com/subscription/issue-billing-->
@@ -25,9 +29,10 @@
         <label for="pwd_2digit">카드 비밀번호 앞 두자리 XX</label>
         <input id="pwd_2digit" type="text" name="pwd_2digit" value="31">
     </div>
-    <input hidden type="text" value="gildong_0001_1234" name="customer_uid">
-    <input type="submit" value="정기결제">
+    <input hidden type="text" value="gildong_0001_1236" name="customer_uid">
+    <input type="submit" value="빌링키 발급">
 </form>
+
 <SCRIPT LAUNGUAGE='JAVASCRIPT'>                     // 자바 스크립트 시작
 
 function generalPay(val){
